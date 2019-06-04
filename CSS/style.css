@@ -1,0 +1,24 @@
+.carousel-inner{
+    height: 700px;
+    
+
+}
+.carousel-indicators li{
+    background-color: black !important;
+}
+.carousel-control-prev-icon {
+    background-color: black !important;
+}
+.carousel-control-next-icon {
+    background-color: black !important;
+}
+.carousel-item {
+    color: black;
+}
+
+.carousel-caption {
+	left: 70% !important;
+	text-align: left;
+    padding: 0;
+    color: black !important;
+}
