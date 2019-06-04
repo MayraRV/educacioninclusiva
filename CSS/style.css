@@ -14,7 +14,10 @@
 }
 .carousel-item {
     color: black;
+    opacity .5s ease-out;
+
 }
+
 
 .carousel-caption {
 	left: 70% !important;
