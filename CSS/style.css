@@ -27,4 +27,20 @@
 }
 .titulo {
     height: 200px;
+    margin-top: 50px;
+}
+
+.carrusel1 {
+    background-color: lightpink;
+}
+.carrusel2 {
+    background-color: lightblue;
+}
+
+.tarjetas {
+    margin-bottom: 50px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
