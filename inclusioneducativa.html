@@ -14,11 +14,76 @@
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script src="js/scripts.js"></script>
     </head>
-    <body>
+<!--Menú bar-->
+    <body id="menu-bar">
+            <nav class="sidebar open">
+                    <div class="sidebar-content">
+                      <ul class="sidebar-nav">
+                        <li class="top no-sub-list">
+                          <a href="#" class="logo" aria-label="Thing App Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="56.975 59.75 143.551 180.5" width="24" height="24" fill="currentColor">
+                              <g>
+                                  <rect x="98.975" y="59.75" width="84" height="131" transform="matrix(1,0,-0.268,1,33.561,0)" opacity="0.65"/>
+                                <rect x="74.525" y="109.25" width="84" height="131" transform="matrix(1,0,-0.268,1,46.824,0)"/>
+                              </g>
+                            </svg>
+                            <span aria-hidden="true">Barreras de Aprendizaje</span></a>
+                          <a href="javascript:toggleSidebar()" class="sidebar-toggle icon-only" aria-label="Collapse navigation"><i data-feather="chevrons-left"></i></a>
+                        </li>
+                        <li class="space-top active">
+                          <a href="http://psicologiaypedagogiaredes.com/?page_id=3599" aria-label="Inbox"><i data-feather="inbox"></i><span aria-hidden="true">Trastornos del Neurodesarrollo</span>
+                          </a>
+                          <ul>
+                            <li><a href="https://www.autismo.com.es/autismo/criterios-diagnosticos-del-autismo.html">Espectro Autista</a></li>
+                            <li><a href="https://www.fundacioncadah.org/web/articulo/diagnosticar-el-tdah-dsm-5.html">TDA y TDAH</a></li>
+                            <li><a href="http://creena.educacion.navarra.es/web/necesidades-educativas-especificas/dif-de-lenguaje-oral/definicion/">Comunicación</a></li>
+                            <li><a href="http://creena.educacion.navarra.es/web/necesidades-educativas-especiales/equipo-de-psiquicos/discapacidad-intelectualp/definicion-de-discapacidad-intelectual/">Desarrollo intelectual</a></li>
+                            <li><a href="https://es.slideshare.net/September15/trastornos-motores-pdf-48095129">Motores</a></li>
+                          </ul>
+                        </li>
+                        <li class="space-top active">
+                            <a href="https://psicodiagnosis.es/areaclinica/trastornosenelambitoescolar/trastornosespecificosdelaprendizaje/index.php" aria-label="Inbox"><i data-feather="inbox"></i><span aria-hidden="true">Trastornos de Aprendizaje</span>
+                            </a>
+                            <ul>
+                                <li><a href="http://www.ladislexia.net/criterios-dsm5-dislexia/">Lectura</a></li>
+                                <li><a href="https://psicodiagnosis.es/areaclinica/trastornosenelambitoescolar/trastornodelaescrituradisgrafia/index.php">Expresión Escrita</a></li>
+                                <li><a href="https://psicodiagnosis.es/areaclinica/trastornosenelambitoescolar/trastornodelcalculodiscalculia/index.php">Cálculo</a></li>
+                                <li><a href="http://www.ladislexia.net/criterios-dsm5-dislexia/">Lectura</a></li>
+                            </ul>
+                        </li>
+                        <li class="space-top active">
+                                <a href="https://psicodiagnosis.es/areaclinica/trastornosenelambitoescolar/trastornosespecificosdelaprendizaje/index.php" aria-label="Inbox"><i data-feather="inbox"></i><span aria-hidden="true">Trastornos de la Conducta</span>
+                                </a>
+                                <ul>
+                                    <li><a href="https://psicodiagnosis.es/areageneral/situaciones-especiales/controlar-la-impulsividad-en-nios/index.php">Control de los impulsos</a></li>
+                                    <li><a href="https://www.fundacioncadah.org/web/articulo/trastorno-oposicionista-desafiante-tnd.html">Oposicionista Desafiante</a></li>
+                                </ul>
+                            </li>
+                      <ul class="sidebar-nav bottom">
+                        <li>
+                          <a href="https://www.educacionespecial.sep.gob.mx/pdf/glosario/Glosario_final.pdf" aria-label="Help & Updates"><i data-feather="help-circle"></i><span aria-hidden="true">Glosario</span><div class="activity-indicator"></div></a>
+                        </li>
+                        <li>
+                            <a href="https://educrea.cl/estrategias-practicas-las-aulas-inclusivas/" aria-label="Help & Updates"><i data-feather="help-circle"></i><span aria-hidden="true">Estrategias aulas inclusivas</span><div class="activity-indicator"></div></a>
+                        </li>
+                        <li>
+                          <a href="http://repositorio.ual.es/bitstream/handle/10835/3600/946_Trabajo%20Fin%20de%20Grado.pdf?sequence=1&isAllowed=y" aria-label="Notifications (new)"><i data-feather="bell"></i><span aria-hidden="true">Recursos didáctico</span><div class="activity-indicator"></div></a>
+                        </li>
+                        <li>
+                          <a href="https://help.blackboard.com/es-es/Accessibility/Inclusive_Classrooms" aria-label="Locness (current user)"><i data-feather="user"></i><span aria-hidden="true">Marco pedagógico<i class="hint" data-feather="chevron-right"></i></span></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+                  <script>
+                    feather.replace();
+                  </script>
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Acerca de mí</a>
+                <a class="nav-link active" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Inclusión educativa</a>
@@ -43,16 +108,33 @@
             </div>
         </div>
 
-            <div class="container-fluid">
-                <div class="roW">
-                    <div class="col-md-12">
+        <div class="container-fluid">
+            <div class="roW">
+                <div class="col-md-12">
                         <img src="img/inclusione.jpg" class="img-fluid" alt="Responsive image">
-
-                    </div>
 
                 </div>
 
             </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 introducción">
+                    <blockquote class="blockquote">
+                         <p class="mb-0">"La inclusión se ve como el proceso de identificar y responder a la diversidad de las necesidades de todos los estudiantes (...)
+                                Involucra cambios y modificiaciones en contenido, aproximaciones, estructuras y estrategias, con una visión común que incluye a todos los niños/as (...)."</p>
+                        <footer class="blockquote-footer">UNESCO <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                        <p> Por ende, es importante reconocer que no es lo mismo inclusión que integración. Por ello a continuación se muestra un cuadro comparativo:
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid class="mx-auto" style="width: 400px;"">
+            <img src="img/cuadrocomparativo.jpg">
+        </div>
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
