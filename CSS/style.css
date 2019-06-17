@@ -31,7 +31,15 @@
 .titulo {
     height: 200px;
     margin-top: 50px;
-
+    font-size: 5.5rem;
+}
+.titulo2 {
+  margin-bottom: 50px;
+  font-size: 5.5rem;
+  margin-top: 50px;
+}
+.texto {
+  font-size: 1.2rem;
 }
 
 .carrusel1 {
@@ -51,15 +59,23 @@
     width: 500px;
 }
 
+.novedades {
+  background-color: lightblue;
+  margin-bottom: 50px;
+}
 .tarjetas {
     margin-bottom: 50px;
 }
 .img-fluid {
     max-width: 100%;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .introducción{
     margin-top: 100px;
+    margin-bottom: 50px;
+  
 }
 
 .sidebar {
@@ -122,7 +138,7 @@
     position: relative;
     display: flex;
     flex: auto;
-    color: grey;
+    color: greyligh;
     padding: 5px;
     border-radius: 9px;
     text-decoration: none;
@@ -213,4 +229,12 @@ card-md{
   card-md {
     width: 15ram;
   }
+}
+.video {
+  margin-bottom: 25px;
+}
+.footer {
+  background-color: lightslategray;
+ padding: 10px;
+ margin-top: 25px;
 }
